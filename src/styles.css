@@ -1,13 +1,15 @@
 body {
   font-family: Helvetica;
-  font-size: 30px;
+  font-size: 20px;
 }
 table {
-  table-layout: 60px;
+  table-layout: fixed;
+  font-family: Helvetica;
+  font-size: 30px;
 }
 table,
-th,
 td {
+  table-layout: fixed;
   border: 1px solid black;
   border-collapse: collapse;
   height: 60px;
@@ -15,3 +17,5 @@ td {
   text-align: center;
   font-size: 30px;
 }
+/* input[type=text]: {
+} */
